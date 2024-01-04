@@ -15,14 +15,54 @@ public class For03 {
             System.out.println();
         }
 
+        System.out.println();
+
         for(int i = 0; i < starCount; i++) {
-            for(int j = 0; j < i + 1; j++) {
+            int a = starCount - i;
+            for(int j = 0; j < a; j++) {
                 System.out.print("*");
             }
             System.out.println();
         }
 
+        System.out.println();
 
+        for(int i = 0; i < starCount; i++) {
+            for(int j = 0; j < starCount; j++) {
+                if(i > j) {
+                    System.out.print(" ");
+                }else {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+
+        for(int i = 0; i < starCount; i++) {
+            for(int j = 0; j < starCount; j++) {
+                int rv_j = starCount - j - 1;
+                if(rv_j > i) {
+                    System.out.print(" ");
+                }else {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+
+        for(int i = 0; i < starCount; i++) {
+            for(int j = 0; j < starCount - 1 - i; j++) {
+                System.out.print(" ");
+            }
+            for(int j = 0; j < (i * 2) + 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
         /*
         * ***
         * **
