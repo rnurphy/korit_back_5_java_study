@@ -18,5 +18,6 @@ public class ComputerMain {
         computer2.ram = "16GB";
         computer1.showInfo();
         computer2.showInfo();
+        computer1.type = "데스크탑";
     }
 }

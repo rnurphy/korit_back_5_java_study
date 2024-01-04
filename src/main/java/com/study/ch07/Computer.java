@@ -14,7 +14,7 @@ public class Computer {
     }
     Computer(String type) {
         this.type = type;
-    }
+    }   // this = 자기 자신의 주소를 가리킴
 
     // 클래스 안에서 정의되는 함수 = 메서드
     void showInfo() {
