@@ -24,7 +24,7 @@ public class ElectronicDeviceMain {
         electronicDevices[1] = electronicDevice2;
         electronicDevices[2] = remoterController;
 
-        for(int i = 0; i < electronicDevices.length; i++) {
+        for (int i = 0; i < electronicDevices.length; i++) {
             electronicDevices[i].showDeviceState();
         }
 

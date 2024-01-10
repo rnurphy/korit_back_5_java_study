@@ -1,7 +1,5 @@
 package com.study.ch11;
 
-import com.study.ch01.PrintStudy;
-
 public class FactoryMain {
     public static void main(String[] args) {
         Company company = new Company();
