@@ -31,7 +31,19 @@ public class ArrayService {
             }
 
         }
+//        삼항문으로도 표현 가능
+//        for (int i = 0; i < newArray.length; i++) {
+//            newArray[i] = strArray[i < index ? i : i + 1];
+//        }
         strArray = newArray;
+    }
+
+    public String get(int index) {
+        if (index < 0 || index > strArray.length - 1) {
+            return "오류";
+        }else {
+            return strArray[index];
+        }
     }
 
     public int indexOf(String str) {
