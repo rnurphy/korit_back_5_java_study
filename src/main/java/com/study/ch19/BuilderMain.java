@@ -10,7 +10,11 @@ public class BuilderMain {
                 .model("아반떼")
                 .color("블랙")
                 .build();
-
+        
+        Member member = Member.builder()
+                .phone("01057371557")
+                .name("김상현")
+                .build();
 
     }
 }

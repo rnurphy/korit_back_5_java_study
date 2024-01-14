@@ -70,9 +70,10 @@ public class LambdaMain {
         String result = fx1.apply(10);
         System.out.println(result);
 
+        System.out.println("-------------------------------------");
         String result2 = fx1.andThen(num -> {
             System.out.println("andThen에 넣은 함수 " + num);
-            return "문자열" + num;
+            return "문자열 " + num;
         }).apply(10);
 
         System.out.println(result2);
